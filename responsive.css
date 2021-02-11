@@ -37,6 +37,13 @@
             padding: 0px 30px;
         }
 
+        .membership h2 {
+            color: #004173;
+            margin-left: 120px;
+            margin-top: 18px;
+            font-weight: 700;
+        }
+
         .gifts {
             padding: 0px 30px;
         }
@@ -90,10 +97,14 @@
 
     /* // Large devices (desktops, 992px and up) */
     @media (min-width: 992px) and (max-width: 1199.98px) {
-        ...
+        .membership h2 {
+            text-align: end;
+        }
     }
 
     /* // Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 1200px) {
-        ...
+        .membership h2 {
+            text-align: end;
+        }
     }

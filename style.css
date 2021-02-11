@@ -38,7 +38,6 @@ p {
 }
 
 /* header part css start*/
-
 #header .top-icon {
     background-color: #004173;
     color: #fff;
@@ -49,7 +48,7 @@ p {
 
 #header .top-icon p {
     margin-top: 10px;
-    margin-left: 55px;
+    margin-left: 60px;
 }
 
 /* header part css end */
@@ -79,7 +78,7 @@ nav img {
 }
 
 #banner .banner-overlay {
-    padding: 50px 0;
+    padding: 65px 0;
     /* background-color: rgba(0, 0, 0, 0.40); */
 }
 
@@ -265,12 +264,13 @@ nav img {
 }
 
 #footer ul li a {
+    text-decoration: none;
     color: #fff;
     display: block;
     padding: 0px 5px;
     font-family: open sans;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 10px;
     transition: 0.3s all ease;
 }
 
