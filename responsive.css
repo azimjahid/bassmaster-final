@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1024px) {
+    #header .top-icon p {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .claim-gift {
+        margin-left: 50px;
+    }
+
+    /* // Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: normal;
+            margin: 5px 0px !important;
+        }
+
+        p {
+            line-height: 100% !important;
+            margin-bottom: 7px !important;
+        }
+
+        #banner {
+            background: url(images/banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .membership {
+            padding: 0px 30px;
+        }
+
+        .gifts {
+            padding: 0px 30px;
+        }
+
+
+        .form-small-device {
+            margin: 12px;
+        }
+
+        .submit-button {
+            display: block;
+            margin-top: 20px;
+        }
+
+        #footer {
+            margin-top: -5px !important;
+        }
+
+        #footer img {
+            display: block;
+            width: 150px;
+            margin-top: 10px;
+            margin-left: 90px;
+        }
+
+
+    }
+
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        #banner {
+            background: url(images/banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #footer img {
+            display: block;
+            width: 250px;
+            margin-top: 15px;
+            margin-left: 120px;
+        }
+
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        ...
+    }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        ...
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        ...
+    }
