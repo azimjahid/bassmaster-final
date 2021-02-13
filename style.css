@@ -110,9 +110,10 @@ p {
 
 .membership h2 {
     color: #004173;
-    margin-left: 120px;
+    margin-right: 65px;
     margin-top: 18px;
     font-weight: 700;
+    text-align: end;
 }
 
 .gifts h4 {
