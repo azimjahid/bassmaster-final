@@ -53,22 +53,6 @@ p {
 
 /* header part css end */
 
-/*menu part css start */
-nav img {
-    width: 200px;
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: #353535;
-}
-
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item .nav-link:hover {
-    color: #0872b9;
-}
-
-/*menu part css end*/
-
 /*banner part css start*/
 #banner {
     background: url(images/banner.png);
